@@ -1,0 +1,42 @@
+[
+  {
+    "mk_code": "A11.64205",
+    "name": "INTERAKSI MANUSIA DAN KOMPUTER",
+    "sks": 3
+  },
+  {
+    "mk_code": "A11.64404",
+    "name": "PEMROGRAMAN WEB LANJUT",
+    "sks": 2
+  },
+  {
+    "mk_code": "A11.64406",
+    "name": "SISTEM BASIS DATA",
+    "sks": 2
+  },
+  {
+    "mk_code": "A11.64407",
+    "name": "RANGKAIAN LOGIKA DIGITAL",
+    "sks": 3
+  },
+  {
+    "mk_code": "A11.64701",
+    "name": "KERJA PRAKTEK",
+    "sks": 2
+  },
+  {
+    "mk_code": "A11.64704",
+    "name": "TUGAS AKHIR 1",
+    "sks": 2
+  },
+  {
+    "mk_code": "A11.64802",
+    "name": "ETIKA PROFESI",
+    "sks": 2
+  },
+  {
+    "mk_code": "A11.64803",
+    "name": "TUGAS AKHIR 2",
+    "sks": 4
+  }
+]

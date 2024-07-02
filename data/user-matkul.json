@@ -1,0 +1,82 @@
+[
+  {
+    "mk_code": "A11.64205",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4205",
+    "days": 4,
+    "hours_start": "07:00",
+    "hours_end": "09:30",
+    "status": "B",
+    "room": "H.4.5"
+  },
+  {
+    "mk_code": "A11.64404",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4415",
+    "days": 4,
+    "hours_start": "12:30",
+    "hours_end": "14:10",
+    "status": "B",
+    "room": "D.2.B"
+  },
+  {
+    "mk_code": "A11.64406",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4407",
+    "days": 5,
+    "hours_start": "07:00",
+    "hours_end": "08:40",
+    "status": "B",
+    "room": "D.3.N"
+  },
+  {
+    "mk_code": "A11.64407",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4401",
+    "days": 4,
+    "hours_start": "09:30",
+    "hours_end": "12:00",
+    "status": "B",
+    "room": "H.5.4"
+  },
+  {
+    "mk_code": "A11.64701",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4801",
+    "days": 6,
+    "hours_start": "15:30",
+    "hours_end": "17:10",
+    "status": "B",
+    "room": "Kulino"
+  },
+  {
+    "mk_code": "A11.64704",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4801",
+    "days": 6,
+    "hours_start": "07:00",
+    "hours_end": "08:40",
+    "status": "B",
+    "room": "Kulino"
+  },
+  {
+    "mk_code": "A11.64802",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4805",
+    "days": 1,
+    "hours_start": "16:20",
+    "hours_end": "18:00",
+    "status": "B",
+    "room": "H.4.5"
+  },
+  {
+    "mk_code": "A11.64803",
+    "user_id": "8e207eb6-9b16-46c6-97c2-80e7ef9a2469",
+    "group": "A11.4801",
+    "days": 6,
+    "hours_start": "11:10",
+    "hours_end": "12:00",
+    "status": "B",
+    "room": "Kulino"
+  }
+]
