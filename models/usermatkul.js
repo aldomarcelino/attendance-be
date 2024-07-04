@@ -8,6 +8,7 @@ module.exports = (sequelize, DataTypes) => {
       });
       UserMatkul.belongsTo(models.Matkul, {
         foreignKey: "mk_code",
+        targetKey: "mk_code",
       });
     }
   }
@@ -20,12 +21,12 @@ module.exports = (sequelize, DataTypes) => {
         allowNull: true,
       },
       user_id: DataTypes.UUID,
-      matkul_code: DataTypes.STRING,
+      mk_code: DataTypes.STRING,
       group: DataTypes.STRING,
       days: DataTypes.INTEGER,
       hours_start: DataTypes.STRING,
       hours_end: DataTypes.STRING,
-      status: DataTypes.CHAR,
+      status: DataTypes.CHAR(3),
       room: DataTypes.STRING,
     },
     {

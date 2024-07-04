@@ -40,7 +40,7 @@ module.exports = {
         type: Sequelize.STRING,
       },
       status: {
-        type: Sequelize.CHAR,
+        type: Sequelize.CHAR(3),
       },
       room: {
         type: Sequelize.STRING,

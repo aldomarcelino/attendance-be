@@ -25,11 +25,9 @@ class UserController {
       let response = user;
       delete response.password;
 
-      console.log(response, "<<<response");
-
       res.status(200).json({ access_token: accessToken, user: response });
     } catch (e) {
-      res.status(401).json({ message: "Invalid Username or Password" });
+      next(e);
     }
   }
 }
