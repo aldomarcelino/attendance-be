@@ -8,6 +8,7 @@ const router = express.Router();
 router.post("/user/signin", userController.signIn);
 router.use(authentication);
 router.get("/matkul/all-matkul", matkulController.getMatkul);
+router.get("/matkul/today-matkul", matkulController.todayMatkul);
 router.use(errorHandler);
 
 module.exports = router;
