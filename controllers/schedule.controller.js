@@ -55,12 +55,12 @@ class ScheduleController {
 
   static async todayMatkul(req, res, next) {
     try {
-      const today = new Date().getDay();
+      // const today = new Date().getDay();
       const hours = new Date().getHours();
       const minute = new Date().getMinutes();
 
-      // const today = 1;
-      // const hours = 14;
+      const today = 4;
+      // const hours = 7;
       // const minute = 57;
       const userMatkuls = await UserMatkul.findAll({
         include: { model: Matkul, attributes: ["name", "sks"] },
@@ -134,6 +134,39 @@ class ScheduleController {
 
       console.log(result, "<<<result");
       res.status(200).json({ matkul: result });
+    } catch (e) {
+      next(e);
+    }
+  }
+
+  static async ruleMatkul(req, res, next) {
+    try {
+      const { rule_late } = req.body;
+      res.status(200).json({
+        message:
+          "Keterlambatan waktu berhasil ditambahkan " + rule_late + " menit",
+      });
+    } catch (e) {
+      next(e);
+    }
+  }
+  static async ruleMatkulHapus(req, res, next) {
+    try {
+      const { rule_late } = req.body;
+      res.status(200).json({
+        message: "Keterlambatan waktu berhasil dihapus",
+      });
+    } catch (e) {
+      next(e);
+    }
+  }
+  static async ruleMatkulEdit(req, res, next) {
+    try {
+      const { rule_late } = req.body;
+      res.status(200).json({
+        message:
+          "Keterlambatan waktu berhasil diupdate ke " + rule_late + " menit",
+      });
     } catch (e) {
       next(e);
     }

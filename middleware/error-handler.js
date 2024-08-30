@@ -11,7 +11,7 @@ const errorHandler = async (err, req, res, next) => {
       res.status(401).json({ message: "Invalid Token" });
       break;
     case "Not_Valid":
-      res.status(401).json({ message: "Invalid Username or Password" });
+      res.status(401).json({ message: "NIM atau password anda salah" });
       break;
     case "empty":
       res.status(400).json({ message: "Required Email or Password" });

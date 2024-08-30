@@ -30,6 +30,26 @@ class UserController {
       next(e);
     }
   }
+
+  static async getProfile(req, res, next) {
+    try {
+      const user = await User.findByPk(req.user.id, { include: "UserDetail" });
+      res.status(200).json(user);
+    } catch (e) {
+      next(e);
+    }
+  }
+
+  static async createPresensi(req, res, next) {
+    try {
+      const { count } = req.body;
+      setTimeout(() => {
+        res.send(200).json({ count: count + 1 });
+      }, 1500);
+    } catch (error) {
+      next(error);
+    }
+  }
 }
 
 module.exports = UserController;
